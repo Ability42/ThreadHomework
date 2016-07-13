@@ -15,6 +15,7 @@
 		7855C6CD1D327EAF0009A31E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7855C6CB1D327EAF0009A31E /* LaunchScreen.storyboard */; };
 		7855C6D81D327EAF0009A31E /* ThreadHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7855C6D71D327EAF0009A31E /* ThreadHomeworkTests.m */; };
 		7855C6E31D327EAF0009A31E /* ThreadHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7855C6E21D327EAF0009A31E /* ThreadHomeworkUITests.m */; };
+		7855C6F21D327EBF0009A31E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7855C6F11D327EBF0009A31E /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7855C6DE1D327EAF0009A31E /* ThreadHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7855C6E21D327EAF0009A31E /* ThreadHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadHomeworkUITests.m; sourceTree = "<group>"; };
 		7855C6E41D327EAF0009A31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7855C6F01D327EBF0009A31E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		7855C6F11D327EBF0009A31E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7855C6CB1D327EAF0009A31E /* LaunchScreen.storyboard */,
 				7855C6CE1D327EAF0009A31E /* Info.plist */,
 				7855C6BD1D327EAF0009A31E /* Supporting Files */,
+				7855C6F01D327EBF0009A31E /* Student.h */,
+				7855C6F11D327EBF0009A31E /* Student.m */,
 			);
 			path = ThreadHomework;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				7855C6C51D327EAF0009A31E /* ViewController.m in Sources */,
 				7855C6C21D327EAF0009A31E /* AppDelegate.m in Sources */,
 				7855C6BF1D327EAF0009A31E /* main.m in Sources */,
+				7855C6F21D327EBF0009A31E /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

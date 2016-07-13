@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Student.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Student *student1 = [[Student alloc] init];
+    student1.name = @"Peggy";
+    
+    Student *student2 = [[Student alloc] init];
+    student2.name = @"Harry";
+    
+    Student *student3 = [[Student alloc] init];
+    student3.name = @"Shane";
+    
+    Student *student4 = [[Student alloc] init];
+    student4.name = @"Rachael";
+    
+    Student *student5 = [[Student alloc] init];
+    student5.name = @"Terry";
+    
+    
+    NSMutableArray *students = [[NSMutableArray alloc] initWithObjects:student1, student2, student3, student4, student5, nil];
+    
+    NSUInteger guessingNumber = 42;
+    NSRange guessingRange;
+    guessingRange.length = 10000;
+    guessingRange.location = 1;
+
+    for (Student *anyStudent in students) {
+        [anyStudent guessNumber:guessingNumber withRange:guessingRange];
+    }
+    
     return YES;
 }
 
